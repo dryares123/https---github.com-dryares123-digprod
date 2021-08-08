@@ -1,0 +1,20 @@
+.section-footer {
+    background-color: #9f9acf;
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 83px;
+        padding-bottom: 83px;
+    }
+    &__title {
+        color: white;
+        font-size: 18px;
+    }
+    &__links {
+        letter-spacing: 10px;
+    }
+}
+
+.social-links {
+    font-size: 30px;
+}

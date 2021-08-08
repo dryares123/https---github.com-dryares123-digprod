@@ -1,0 +1,43 @@
+.hero-section {
+    background-image: url('../img/hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    &__content {
+        padding-top: 50px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__nav {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    &__navigation {
+        margin-right: 30px;
+        color: white;
+        font-size: 24px;
+        text-decoration: none;
+    }
+    &__navigation:hover {
+        cursor: pointer;
+        text-decoration: underline;
+        color: darkcyan;
+    }
+    &__body {
+        padding-top: 285px;
+        margin: 0 auto;
+        text-align: center;
+        color: white;
+    }
+    &__title {
+        font-size: 72px;
+        font-weight: bold;
+        margin-bottom: 40px;
+    }
+    &__subtitle {
+        font-size: 30px;
+        font-style: italic;
+        padding-bottom: 517px;
+    }
+}
